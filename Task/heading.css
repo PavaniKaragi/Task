@@ -1,0 +1,30 @@
+h1{
+    color:rgb(76, 169, 227);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:center;
+    display: flex;
+    margin:auto;   
+}
+
+.container{
+    border:0.1px solid whitesmoke;
+    border-width:thin;
+    display:flex;
+    padding:-1px -1px;
+    margin:-7px -7px;  
+}
+
+label{
+    margin-right: 400px;
+    padding-top:0px; 
+    margin-top:20px;   
+}
+
+h2.nr{
+    display:flex;
+    flex-direction: row;
+    border:1px solid whitesmoke;
+    color:black;
+    margin:10px;
+    padding:10px 10px;
+}

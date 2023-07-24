@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog Creation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="heading.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <label class="header">NCC</label>
+            <h1 class="header">Catalog Creation</h1>
+            <select class="headers" border-radius="2px"" >
+                <option style="padding:10px 10px">C.Antani khanjan kumar</option>
+            </select>
+            <img src="Effigo logo.jpg" class="header" width="50px"  >
+        </div>
+    </header>
+    <h2><span style="color:skyblue">My Catalog></span>Add Items/Services</h2>
+<div class="p1">
+    <label>Project:</label>
+    <select>
+        <option value="" disabled selected hidden >None Selected</option>
+        <option>TATA</option>
+        <option>JP MORGAN</option>
+    </select>
+</div>
+<br></br>
+
+<div class="t1">
+<label>Type:<span>*</span></label>
+	<input class="goods" type="radio" name="goods"  id="goods"/>Goods 
+	<input class="services" type="radio" name="services" id="services"/>Services
+</div>
+<br></br>
+
+<div class="div1">
+    <div class="d1">
+        <label>Category<span>*</span></label></br>
+        <select style="background-color:lightgrey;text-decoration-color:black;">
+            <option value="" disabled selected hidden>Select Category</option>
+            <option>Device</option>
+        </select>
+    </div>
+    <div class="d2">
+        <label>Sub Category<span>*</span></label></br>
+        <select style="background-color:lightgrey;text-decoration-color:black;">
+            <option value="" disabled selected hidden>Select Sub Category</option>
+            <option>Smartphones</option>
+        </select>
+    </div>
+    <div class="d3">
+        <label>Price Per<span>*</span></label></br>
+        <input class="Price" type="radio"  id="Price"/>Per Unit
+    </div>
+    </div>
+    <br></br>
+
+<div class="div2">
+    <div class="d4">
+      <label>L3 Category <span>*</span></label></br>
+      <select style="background-color:lightgrey;text-decoration-color:black;">
+        <option value="" disabled selected hidden>Select L3 Category</option>
+        <option>Iphone</option>
+        <option>Oppo</option>
+      </select>
+    </div>
+    <div class="d5">
+      <label>Items/Services <span>*</span></label></br>
+      <select style="background-color:lightgrey;text-decoration-color:black;">
+        <option value="" disabled selected hidden>Select item</option>
+        <option>Iphone</option>
+        <option>Oppo</option>
+      </select> 
+    </div>
+</div></br>
+
+<div class="div3">
+    <div class="d6">
+      <label>Item Description <span>*</span></label></br>
+      <textarea id="area" cols="70" rows="7"></textarea>
+    </div>
+    <div class="d7">
+     <label>KeyWords <span>*</span style="color:red"></label></br>
+     <textarea id="area" cols="70" rows="7" ></textarea>
+    </div>
+</div></br>
+
+<div class="div4">
+    <div class="d8">
+      <label>Supplier<span>*</span></label></br>
+      <select>
+        <option value="" disabled selected hidden>Select Supplier</option>
+        <option>Iphone</option>
+        <option>Oppo</option>
+      </select>
+    </div>
+    <div class="d9">
+        <label>Supplier part no</label></br>
+        <textarea id="area" cols="40" rows="0"></textarea>
+    </div>
+    <div class="d10">
+        <label>Shipping mode(Mandatory if product)<span>*</span></label></br>
+        <select>
+            <option value="" disabled selected hidden>Select</option>
+            <option>COD</option>
+            <option>UPI</option>
+        </select>
+    </div>
+</div></br>
+
+<div class="div5">
+    <div class="d11">
+      <label>Inco terms <span>*</span></label></br>
+      <select>
+        <option value="" disabled selected hidden>Select</option>
+        <option>Iphone</option>
+        <option>Oppo</option>
+      </select>
+    </div>
+    <div class="d12">
+      <label>Delivery terms <span>*</span></label></br>
+      <select>
+        <option value="" disabled selected hidden>Select</option>
+        <option>Iphone</option>
+        <option>Oppo</option>
+      </select>
+    </div>
+    <div class="d13">
+      <label>Payment terms <span>*</span></label></br>
+      <select>
+        <option value="" disabled selected hidden>Select</option>
+        <option>Iphone</option>
+        <option>Oppo</option>
+      </select>
+    </div>  
+</div></br>
+
+<div class="div6">
+    <div class="d14">
+        <label> Validity start date <span>*</span></label></br>
+        <input type="text" placeholder="Select start date">
+    </div>
+    <div class="d15">
+        <label> Validity end date <span>*</span></label></br>
+        <input type="text" placeholder="Select end date">
+    </div>
+    <div class="d16">
+        <label> Catalogued for location <span>*</span></label></br>
+        <select>
+            <option value="" disabled selected hidden>Select</option>
+            <option>Iphone</option>
+            <option>Oppo</option>
+        </select>
+    </div>
+</div></br>
+
+<div class="div7">
+    <div class="d17">
+        <label>Negotiated Quantity <span>*</span></label></br>
+        <input type="number" name="number"min = "0" max="10000000" step="1" placeholder="max 10000000" />
+    </div>
+    <div>
+        <label>Minimum Quantity <span>*</span></label></br>
+        <input type="text" placeholder="1">
+    </div>
+    <div>
+        <label>Currency <span>*</span></label></br>
+        <select id="noneselected">
+            <option value="" disabled selected hidden>Select</option>
+            <option>dollar</option>
+            <option>INR</option>
+        </select>
+    </div>
+</div></br>
+
+<div class="div8">
+    <div>
+        <label>Contact reference no.<span>*</span></label></br>
+        <textarea id="num" cols="30" rows="0"></textarea>
+    </div>
+    <div>
+        <label>Delivery Lead time(days)<span>*</span></label></br>
+        <textarea id="num" cols="30" rows="0"></textarea>
+    </div>
+    <div>
+        <label>Supplier location<span>*</span></label></br>
+        <select>
+            <option value="" disabled selected hidden>Select</option>
+            <option>Hyderabad</option>
+            <option>Banglore</option>
+        </select> 
+    </div>
+</div></br>
+
+<div class="div9">
+    <div>
+        <label>Units<span>*</span></label></br>
+        <select>
+            <option value="" disabled selected hidden>Select</option>
+            <option>kgs</option>
+            <option>gm</option>
+        </select>  
+    </div>
+    <div>
+        <label>UOM Quantity</label></br>
+        <textarea id="uom" cols="30" rows="0"></textarea>
+    </div>
+    <div>
+        <label>Minor UOM<span>*</span></label></br>
+        <select>
+            <option value="" disabled selected hidden>Select</option>
+            <option>kgs</option>
+            <option>gm</option>
+        </select>  
+    </div>
+</div></br>
+
+<div class="div10">
+    <div>
+        <label>Contract Document Upload<span>*</span></label></br>
+        <button type="button" class="btn-warning">
+            <i class="fa fa-upload"></i> Upload 
+        </button>
+        <button type="button" class="btn-warning">
+            <i class="fa fa-upload"></i>Start Upload 
+        </button>
+    </div>
+    <div>
+        <label>Price Represntation:<span>*</span></label></br>
+        <input class="Total Price" type="radio" name="Total Price">Total Price
+        <input class="Base Price" type="radio" name="Base Price">Base Price
+    </div>
+    <div>
+        <label>Savings Amount<span>*</span></label></br>
+        <textarea id="amount"cols="30" rows="0"></textarea>
+    </div>
+</div></br>
+
+<div class="div11">
+<label class="note">Note:</label></br>
+Please Upload .xls|.xlsx|.doc|.docx|.pdf|.jpeg|.jpg|.png file only <br></br>
+<label>Additional Document  <i class="fa fa-plus-circle" style="color:skyblue"></i></label>
+</br>
+<label>Note:</label></br>
+Please Upload .xls|.xlsx|.doc|.docx|.pdf|.jpeg|.jpg|.png file only
+</div></br>
+
+<div class="div12">
+    <label>Catalogue Image  <i class="fa fa-plus-circle" style="color:skyblue"></i></label>
+</div>
+
+<table class="div13" align="left">
+    <tr>
+        <th>Price label</th>
+        <th>Price type(Amount/percentage)</th>
+        <th>Value</th>
+        <th>Calculation on</th>
+        <th>Calculation type</th>
+        <th>Add/Remove</th>
+    </tr>
+    <tr>
+        <td>
+           <input type="text" placeholder="Base Price">
+        </td>
+        <td>Amount/Percentage</td>
+        <td>
+            <input type="text" placeholder="Enter Base Price" >
+        </td>
+        <td>NA</td>
+        <td>NA</td>
+        <td>
+            <i class="fa fa-plus-circle" style="color:skyblue"></i>
+        </td>
+    </tr>
+</table>
+
+<div class="div14">
+    <input type="submit" value="Back" class="btn1"/>
+    <input type="submit" value="Submit" class="btn2"/>
+    <input type="submit" value="Draft" class="btn3"/>
+</div>
+
+</body>
+</html>
+
+
+   
+
+
+
+
+
+
+
+   
+
+
+
